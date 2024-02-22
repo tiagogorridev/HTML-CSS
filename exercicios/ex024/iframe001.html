@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudos de iframe</title>
+
+    <style>
+        iframe {
+            width: 400px;
+            height: 400px; /*oq vale é o css*/
+            border: 1px dashed black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando o uso de iframes</h1>
+    <p>Acesse o <a href="https://www.google.com.br/?hl=pt-BR" target="_blank">Google</a></p>
+
+    <p>Acesse o 
+        
+        <!-- TAMANHO PADRAO: 350x150-->
+        <iframe src="https://www.cursoemvideo.com" frameborder="0" height="500" scrolling="yes"></iframe>
+        
+        por iframe</p>
+
+
+
+    <p>Caso o iframe nao funciona no
+
+        <iframe src="hhtp://www.google.com" frameborder="0"></iframe>
+            [ERRO]
+        por exemplo
+    </p>
+
+
+    <p>Posso tambem colocar um link caso o site nao funcione no <a href="https://www.google.com" target="_blank">Google</a> por exemplo
+    </p>
+</body>
+</html>

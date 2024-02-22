@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>repoduzindo audio</h1>
+    <audio src="midia/Two Hearts - TrackTribe.mp3" controls autoplay></audio>
+    <!-- compatibilidade com todos os navgadroes: MP3 WAV OGG -->
+
+    <p> para total compatibilidade é assim:</p>
+
+    <audio preload="metadata" autoplay controls loop>
+    <source src="midia/Two Hearts - TrackTribe.mp3" type="audio/mpeg">
+    <source src="midia/Two Hearts - TrackTribe.ogg" type="audio/ogg">
+    <source src="midia/Two Hearts - TrackTribe.wav" type="audio/wav">
+    <p> infelizmente seu navegador nao reproduz audio <a href="midia/Two Hearts - TrackTribe.mp3"> clique aqui para baixar em mP3 </a></p>
+    </audio>
+</body>
+</html>
